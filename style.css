@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#aboutUs {
+  margin: 2rem;
+  max-width: 100%;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+#carouselExample {
+  height: 500px;
+  overflow: hidden;
+}
+#carouselExample img {
+  height: 500px;
+  object-fit: cover;
+}
+
+#carouselExample .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#carouselExample .carousel-caption {
+  position: absolute;
+  bottom: 5%;
+  z-index: 20;
+  color: white;
+  text-align: center;
+}
+
+#carouselExample h1 {
+  font-family: sans-serif;
+  line-height: 0.2px;
+}
+
+#carouselExample p {
+  font-family: "Times New Roman";
+  font-size: 60px;
+}
+
+footer.sqs-block-content {
+  max-width: 1000px;
+  max-height: 300px;
+}
+.container {
+  margin: 0 auto;
+  max-width: auto;
+  padding: 0 2ream;
+}
+
+footer strong {
+  font-size: 15px;
+}
+footer p {
+  font-size: 12px;
+}
+footer .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  padding: 1rem 0;
+}
+footer .navbar-brand {
+  font-family: sans-serif;
+  color: black;
+}
+
+footer .contacts p {
+  margin-top: 20px;
+  text-align: right;
+  color: black;
+}
+div .contacts a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutUs {
+  margin: 2rem;
+}
+div .aboutUs img {
+  height: 300px;
+  max-width: 1000px;
+  object-fit: cover;
+}
+.services {
+  margin: 2rem;
+}
+.services h2 {
+  margin-bottom: 20px;
+}
+#drinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebe3ce;
+}
+#drinks .container {
+  padding: 0 0 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#drinks img {
+  margin-bottom: 0;
+}
