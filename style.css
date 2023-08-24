@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 #aboutUs {
   margin: 2rem;
   max-width: 100%;
@@ -96,6 +97,11 @@ div .aboutUs img {
   height: 300px;
   max-width: 1000px;
   object-fit: cover;
+}
+section#services.services {
+  background-color: #bfcde0;
+  margin: 0;
+  padding: 2rem;
 }
 .services {
   margin: 2rem;
